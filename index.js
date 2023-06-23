@@ -1,9 +1,3 @@
 const inquirer = require('inquirer');
-const sql = require('mysql2');
+const db = require('./connect');
 
-const connection = sql.genConnection({
-    user: "root",
-    password: "root",
-    database: 'employee_db',
-    host: 'localhost'
-});
