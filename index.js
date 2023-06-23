@@ -22,26 +22,34 @@ function start() {
         .then(function (answer) {
             switch (answer.startMenu) {
                 case "Add a employee":
-                    addEmployee();
-                    break;
+                    return addEmployee();
                 case "Update an employee role":
-                    updateRole();
-                    break;
+                    return updateRole();
                 case "View all employees":
-                    viewAllEmployees();
-                    break;
+                    return viewAllEmployees();
                 case "Add role":
-                    addRole();
-                    break;
+                    return addRole();
                 case "View all roles":
-                    viewAllRoles();
-                    break;
+                    return viewAllRoles();
                 case "Add a department":
-                    addDepartment();
-                    break;
+                    return addDepartment();
                 case "View all departments":
-                    viewAllDepartments();
-                    break;
+                    return viewAllDepartments();
             }
         })
+}
+
+function addEmployee() {
+    inquirer.prompt({
+        name: 'employees',
+        type: 'input',
+        message: 'Enter the name of the new employee'
+    })
+    .then(function (answer) {
+        db.query("INSERT INTO employee SET ?", { name: answer.employee }, function (err, res) {
+            if (err) throw err;
+            console.log("Empolyee added");
+            start();
+          })
+      })
 }
