@@ -21,5 +21,5 @@ VALUES  ("Harry", "Potter", 1, NULL),
         ("Sanji", "Vinsmoke", 4, 3),
         ("Midoriya", "Izuku", 5, NULL),
         ("Naruto", "Uzumaki", 6, 5),
-        ("Sasuke", "Uchiha", 7, NULL),
+        ("Sasuke", "Uchiha", 7, 5),
         ("Rock", "Lee", 8, 7);
