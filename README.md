@@ -1,15 +1,32 @@
 # SQL Employee Tracker
 
+## Video Demo
+
+
 ## Description
-- This project will keep track of EVERYTHING about your employees. From their salary, titles, and their departments.
-- This also allows you to make changes to everything listed above!
-
+- This project is a command-line application that allows the user to view and manage the departments, roles, and employees in a company. The user can add departments, roles, and employees. The user can also view departments, roles, and employees. The user can also update employee roles. This application uses node, inquirer, and MySQL.
+    
 ## Installation
-
+- Clone the repo
+- Navigate to the repo in your directory
+- Install the dependencies by typing in "npm i" in the terminal
+    
 ## Usage
-
+- Open the terminal
+- Navigate to the repo in your directory
+- Enter mysql -u root -p
+- Enter your password
+- Enter source db/schema.sql
+- Enter source db/seeds.sql
+- Open bash
+- Enter node index.js
+    
+## Contribution
+- This was project was done by myself.
+    
+## Contact
+- Contact email: bsellers3013@gmail.com 
+- GitHub: https://github.com/bsellers1
+    
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-## Contributions
-
-## Video Demo
