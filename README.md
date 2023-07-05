@@ -1,7 +1,7 @@
 # SQL Employee Tracker
 
 ## Video Demo
-
+[Untitled_ Jul 5, 2023 2_56 AM.webm](https://github.com/bsellers1/sql-employee-tracker/assets/132436242/61b6b8e9-4ebc-4e16-8d74-c5da41ba890a)
 
 ## Description
 - This project is a command-line application that allows the user to view and manage the departments, roles, and employees in a company. The user can add departments, roles, and employees. The user can also view departments, roles, and employees. The user can also update employee roles. This application uses node, inquirer, and MySQL.
